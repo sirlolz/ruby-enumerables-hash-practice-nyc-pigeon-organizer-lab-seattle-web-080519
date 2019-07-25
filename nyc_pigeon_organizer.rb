@@ -5,12 +5,7 @@ def nyc_pigeon_organizer(data)
     v.each do |key, value|
       value.each do |name|
         pidgeons.each do |pidgy, info|
-          if pidgy 
-            pidgy = key
-          else 
-            pidgy = name
             binding.pry
-          end
         end
       end
     end
