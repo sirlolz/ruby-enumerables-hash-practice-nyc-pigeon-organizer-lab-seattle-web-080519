@@ -9,11 +9,11 @@ def nyc_pigeon_organizer(data)
             pidgy = key
           else 
             pidgy = name
+            binding.pry
           end
         end
       end
     end
   end
-  binding.pry
   pidgeons
 end
