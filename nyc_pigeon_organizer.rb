@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
         else 
             pidgeons[name] = {}
         end
-        binding.pry
+       # binding.pry
       end
     end
   end
