@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
         else 
             pidgeons[name] = {}
         end
+        pidgeons[name][k]
       end
     end
   end
