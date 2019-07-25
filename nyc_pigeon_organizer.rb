@@ -4,9 +4,8 @@ def nyc_pigeon_organizer(data)
   data.each do |k, v|
     v.each do |key, value|
       value.each do |name|
-        pidgeons.each do |pidgy, info|
+        
             binding.pry
-        end
       end
     end
   end
