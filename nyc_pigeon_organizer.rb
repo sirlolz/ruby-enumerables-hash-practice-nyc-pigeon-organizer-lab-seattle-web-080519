@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         else 
             pidgeons[name] = {}
         end
-        pidgeons[name][k]
+        pidgeons[name][k].push(key)
       end
     end
   end
