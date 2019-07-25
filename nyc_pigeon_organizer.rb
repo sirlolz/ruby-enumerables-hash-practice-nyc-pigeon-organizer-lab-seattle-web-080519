@@ -1,6 +1,7 @@
 require "pry"
 def nyc_pigeon_organizer(data)
   pidgeons = {}
+  i = 0
   data.each do |k, v|
     v.each do |key, value|
       value.each do |name|
@@ -10,7 +11,8 @@ def nyc_pigeon_organizer(data)
         else 
             pidgeons[name] = {}
         end
-        pidgeons[name][k].push(key)
+        pidgeons[name][k][i] = key
+        i += 1
       end
     end
   end
