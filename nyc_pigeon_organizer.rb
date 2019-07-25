@@ -7,6 +7,8 @@ def nyc_pigeon_organizer(data)
         if pidgeons[name]
           pidgeons[name] = key
             binding.pry
+          else 
+            pidgeons[name] = ""
         end
       end
     end
