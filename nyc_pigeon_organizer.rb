@@ -10,7 +10,6 @@ def nyc_pigeon_organizer(data)
         else 
             pidgeons[name] = {}
         end
-        if pid
       end
     end
   end
