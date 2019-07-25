@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     v.each do |key, value|
       value.each do |name|
         if pidgeons[name]
-          pidgeons[name][k] = ""
+          pidgeons[name][k][0] = ""
            #binding.pry
         else 
             pidgeons[name] = {k => []}
