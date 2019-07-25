@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           pidgeons[name][k] = [key]
           # binding.pry
         else 
-            pidgeons[name] = {[]}
+            pidgeons[name] = {k => []}
         end
        # pidgeons[name][k][i] = key
         #i += 1
