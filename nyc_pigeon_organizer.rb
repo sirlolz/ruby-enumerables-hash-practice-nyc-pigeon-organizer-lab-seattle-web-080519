@@ -5,9 +5,13 @@ def nyc_pigeon_organizer(data)
     v.each do |key, value|
       value.each do |name|
         pidgeons.each do |pidgy, info|
-          
+          if pidgy 
+            pidgy => key
+          else pidgy = name
+          end
         end
       end
     end
   end
+  pidgeons
 end
