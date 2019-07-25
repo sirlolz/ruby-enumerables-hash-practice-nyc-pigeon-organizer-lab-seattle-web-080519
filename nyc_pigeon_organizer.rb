@@ -7,7 +7,8 @@ def nyc_pigeon_organizer(data)
         pidgeons.each do |pidgy, info|
           if pidgy 
             pidgy = key
-          else pidgy = name
+          else 
+            pidgy = name
           end
         end
       end
