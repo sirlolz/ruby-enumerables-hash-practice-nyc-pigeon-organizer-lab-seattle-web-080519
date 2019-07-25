@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     v.each do |key, value|
       value.each do |name|
         if pidgeons[name]
-          pidgeons[name]
+          pidgeons[name] = key
             binding.pry
       end
     end
