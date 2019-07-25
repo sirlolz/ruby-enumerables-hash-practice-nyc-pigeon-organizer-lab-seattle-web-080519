@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
         else 
             pidgeons[name] = {}
         end
+        pidgeons[name][k].push("")
       end
     end
   end
