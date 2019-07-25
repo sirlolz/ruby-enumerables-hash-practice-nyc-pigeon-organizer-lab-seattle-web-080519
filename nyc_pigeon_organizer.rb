@@ -8,10 +8,11 @@ def nyc_pigeon_organizer(data)
         if pidgeons[name]
           pidgeons[name][k] = []
            #binding.pry
+        elsif pidgeons[name][k]
+          pidgeons[name][k].push("")
         else 
             pidgeons[name] = {}
         end
-       # binding.pry
       end
     end
   end
