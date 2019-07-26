@@ -12,7 +12,9 @@ def nyc_pigeon_organizer(data)
             pidgeons[name] = {}
         end
         pidgeons.each do |namai, data|
-          binding.pry
+          data.each do |d,dd|
+            binding.pry
+          end
         end
       end
     end
