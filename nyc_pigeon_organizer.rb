@@ -10,12 +10,12 @@ def nyc_pigeon_organizer(data)
          #  binding.pry
         else 
             pidgeons[name] = {k =>[]}
-            binding.pry
+           # binding.pry
         end
           pidgeons[name][k].push(key)
       end
     end
   end
-  #binding.pry
+  binding.pry
   pidgeons
 end
