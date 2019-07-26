@@ -4,8 +4,11 @@ def nyc_pigeon_organizer(data)
   data.each do |k, v|
     v.each do |key, value|
       value.each do |name|
-        if pidgeons
-            pidgeons[name] = {k => [].push(key.to_s)}
+        if pidgeons[name]
+          pidgeons[name][k] = [] 
+         #  binding.pry
+        else 
+            pidgeons[name] = {}
            # binding.pry
         end
         #  pidgeons[name][k].push(key)
