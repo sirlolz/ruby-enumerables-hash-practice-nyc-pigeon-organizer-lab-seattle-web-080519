@@ -17,7 +17,10 @@ def nyc_pigeon_organizer(data)
   end
   pidgeons.each do |k,v|
     v.each do |meh, no|
-      binding.pry
+      data.each do |key,value|
+        binding.pry
+      end
+      
     end
   end
 end
