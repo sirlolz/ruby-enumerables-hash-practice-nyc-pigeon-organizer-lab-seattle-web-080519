@@ -19,6 +19,9 @@ def nyc_pigeon_organizer(data)
     v.each do |meh, no|
       data.each do |key,value|
         value.each do |data, name|
+          if name.include?(k)
+            
+          end
           binding.pry
         end
       end
