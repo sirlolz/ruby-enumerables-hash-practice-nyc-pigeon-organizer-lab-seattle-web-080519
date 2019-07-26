@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         end
         pidgeons.each do |namai, data|
           data.each do |d,dd|
-            binding.pry
+            dd.push(key)
           end
         end
       end
