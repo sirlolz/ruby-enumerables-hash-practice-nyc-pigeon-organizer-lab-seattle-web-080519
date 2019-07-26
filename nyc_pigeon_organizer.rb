@@ -13,7 +13,6 @@ def nyc_pigeon_organizer(data)
             binding.pry
         end
           pidgeons[name][k].push(key)
-        end
       end
     end
   end
