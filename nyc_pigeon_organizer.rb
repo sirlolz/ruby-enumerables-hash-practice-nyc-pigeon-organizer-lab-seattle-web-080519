@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
         end
         if pidgeons[name][k]
           pidgeons[name][k].push("")
+          binding.pry
         end
       end
     end
