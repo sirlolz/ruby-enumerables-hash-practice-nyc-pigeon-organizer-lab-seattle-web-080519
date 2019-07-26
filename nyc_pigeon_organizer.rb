@@ -11,7 +11,9 @@ def nyc_pigeon_organizer(data)
         else 
             pidgeons[name] = {}
         end
-        pidgeons[name][k].push("")
+        pidgeons.each do |namai, data|
+          binding.pry
+        end
       end
     end
   end
