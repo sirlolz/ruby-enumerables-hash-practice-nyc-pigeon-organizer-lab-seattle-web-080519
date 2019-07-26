@@ -20,9 +20,11 @@ def nyc_pigeon_organizer(data)
       data.each do |key,value|
         value.each do |data, name|
           binding.pry
+          if key == meh
           if name.include?(k)
             no.push(data.to_s)
           end
+        end
         end
       end
     end
