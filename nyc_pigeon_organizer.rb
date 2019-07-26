@@ -19,6 +19,7 @@ def nyc_pigeon_organizer(data)
     v.each do |meh, no|
       data.each do |key,value|
         value.each do |data, name|
+          binding.pry
           if name.include?(k)
             no.push(data.to_s)
           end
