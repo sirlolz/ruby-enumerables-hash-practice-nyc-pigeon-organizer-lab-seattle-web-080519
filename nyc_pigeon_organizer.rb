@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           pidgeons[name][k]
          #  binding.pry
         else 
-            pidgeons[name] = {k}
+            pidgeons[name] = {k =>[]}
             binding.pry
         end
           pidgeons[name][k].push(key)
