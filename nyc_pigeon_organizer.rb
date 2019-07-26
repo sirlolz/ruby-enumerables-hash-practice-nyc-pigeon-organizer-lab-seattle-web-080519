@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
           pidgeons[name][k] = [].push(key.to_s)
          #  binding.pry
         else 
-            pidgeons[name] = {k => []}
+            pidgeons[name] = {k => [key.to_s]}
            # binding.pry
         end
         #  pidgeons[name][k].push(key)
