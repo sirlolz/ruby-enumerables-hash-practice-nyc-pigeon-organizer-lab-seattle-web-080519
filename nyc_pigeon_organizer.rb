@@ -5,10 +5,10 @@ def nyc_pigeon_organizer(data)
     v.each do |key, value|
       value.each do |name|
         if pidgeons[name]
-          pidgeons[name][k] = [].push(key.to_s)
+          pidgeons[name][k][].push(key.to_s)
          #  binding.pry
         else 
-            pidgeons[name] = {}
+            pidgeons[name] = {k = []}
            # binding.pry
         end
         #  pidgeons[name][k].push(key)
